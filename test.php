@@ -1,6 +1,6 @@
 <?php
 
-
+header('Content-Type: application/json');
 $json = '{
     "quiz": {
         "sport": {
@@ -40,7 +40,7 @@ $json = '{
     }
 }';
 
-print JSON.parse($json);
+print json_encode($json);
 
 ?>
 
