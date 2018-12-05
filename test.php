@@ -1,7 +1,7 @@
 <?php
 
 
-$json = {
+$json = '{
     "quiz": {
         "sport": {
             "q1": {
@@ -38,8 +38,9 @@ $json = {
             }
         }
     }
-};
+}';
 
-print $json;
+print JSON.parse($json);
 
 ?>
+
