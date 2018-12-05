@@ -40,7 +40,7 @@ $json = '{
     }
 }';
 
-print json_encode($json);
+print $json;
 
 ?>
 
